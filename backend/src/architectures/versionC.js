@@ -1,9 +1,3 @@
-// VERSION C — Tool-calling Agent
-// The LLM does not write the order JSON freely. Instead it calls structured
-// functions (search_menu, get_item, add_item). Our backend executes each call
-// against MongoDB and feeds the result back. The order is built only from real
-// database lookups, which makes item-id hallucination structurally hard.
-
 import { chatWithTools } from "../llm/chatWithTools.js";
 import { makeToolExecutors, toolDefinitions } from "./tools.js";
 
@@ -78,12 +72,6 @@ export async function versionC({ customerMessage, model = "llama3" }) {
         }
     }
 
-    // Decide outcome: items in cart, otherwise treat as clarify/refusal.
-    // Note: small local models sometimes WRITE the tool call as text instead of
-    // invoking it, which leaves the cart empty. We deliberately do NOT try to parse
-    // tool calls out of free text, because doing so would also wrongly "rescue"
-    // adversarial cases the model correctly declined to formally execute. This
-    // unreliability of small-model tool-calling is reported as a finding.
     const needsClarification = cart.length === 0;
 
     return {

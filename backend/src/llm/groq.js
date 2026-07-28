@@ -1,10 +1,3 @@
-// Thin wrapper around the Groq API (https://api.groq.com), OpenAI-compatible.
-// Mirrors the shape of ollama.js so the architectures don't need to change:
-// same chat({ model, messages, json, options }) -> { content, raw, metrics }.
-//
-// Groq runs open models (e.g. llama-3.3-70b-versatile) on fast hosted hardware.
-// Requires GROQ_API_KEY in the environment (.env).
-
 const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 // Map the short --model names you pass on the CLI to real Groq model IDs.
@@ -27,11 +20,6 @@ function resolveGroqModel(model) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/**
- * Same signature as ollama.js chat(). Sends a non-streamed chat request to Groq.
- * Retries a few times on rate limits (429) and transient 5xx errors, because the
- * free tier has per-minute limits and a full 210-order run can hit them.
- */
 export async function chat({ model, messages, json = false, options = {} }) {
   const apiKey = process.env.GROQ_API_KEY;
   if (!apiKey) {

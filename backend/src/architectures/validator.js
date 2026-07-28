@@ -1,18 +1,3 @@
-// validator.js -- Version D, layer 3: the validator (the final backstop).
-//
-// WHY THIS EXISTS (for the dissertation):
-// The classifier can misroute, and the LLM can still produce a wrong cart even on
-// the "execute" path. This layer trusts NOTHING: it re-checks every item in the
-// final cart against the real menu in MongoDB. It is deterministic code, not an LLM,
-// so its guarantees are hard. It catches exactly what the baselines missed:
-//   - invented item ids        (does the item exist?)
-//   - out-of-stock items       (is it available?)
-//   - wrong / tampered prices   (does the price match the menu?)
-//   - over-limit quantities     (is quantity <= maxQuantityPerOrder?)
-//
-// Output: a cleaned cart containing ONLY valid lines, plus a list of problems
-// describing what was removed and why (useful for the reply and for analysis).
-
 import { MenuItem } from "../models/MenuItem.js";
 
 export async function validateCart(cart) {

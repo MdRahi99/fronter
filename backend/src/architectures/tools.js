@@ -1,8 +1,3 @@
-// tools.js — the structured functions the LLM may call in Version C.
-// Each tool has (1) a JSON-schema definition sent to the model, and (2) an
-// executor that runs against the REAL menu in MongoDB. Because items are looked
-// up in the database, the model cannot invent item IDs the way it does in A/B.
-
 import { MenuItem } from "../models/MenuItem.js";
 
 export const toolDefinitions = [

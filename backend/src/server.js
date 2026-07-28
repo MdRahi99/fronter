@@ -17,7 +17,7 @@ app.use("/api/menu", menuRoutes);
 app.use("/api/llm", orderRoutes);   // /api/llm/health
 app.use("/api", orderRoutes);       // /api/order
 
-// Express 5: async errors are forwarded automatically; this catches them all
+// async errors are forwarded automatically; this catches them all
 app.use((err, req, res, next) => {
   console.error(err);
   res.status(500).json({ error: "Internal server error" });

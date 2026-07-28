@@ -1,10 +1,5 @@
-// vectorStore.js — in-memory semantic search over the menu.
-// At 39 items, brute-force cosine similarity is exact and instant; no dedicated
-// vector database is needed. Embeddings are stored in MongoDB (on each MenuItem)
-// by scripts/buildEmbeddings.js, loaded once here, then searched in memory.
-
 import { MenuItem } from "../models/MenuItem.js";
-import { embed, cosineSimilarity } from "./embeddings.js";
+import { cosineSimilarity, embed } from "./embeddings.js";
 
 let cache = null; // [{ item, vector }]
 

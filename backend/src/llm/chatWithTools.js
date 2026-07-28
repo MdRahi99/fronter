@@ -1,7 +1,3 @@
-// chatWithTools.js — tool-calling variant of the Ollama client (for Version C).
-// Sends the menu-interaction tools, lets the model call them, executes each call
-// against MongoDB, and feeds results back until the model stops calling tools.
-
 const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
 
 export async function chatWithTools({ model, messages, tools }) {

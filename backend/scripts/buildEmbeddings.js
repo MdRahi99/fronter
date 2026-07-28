@@ -1,9 +1,3 @@
-// buildEmbeddings.js — compute an embedding for every menu item and save it
-// back onto the MenuItem document in MongoDB. Run ONCE (re-run if the menu changes).
-//
-//   ollama pull nomic-embed-text      # one time
-//   node scripts/buildEmbeddings.js
-
 import "dotenv/config";
 import { connectDB, disconnectDB } from "../src/db.js";
 import { MenuItem } from "../src/models/MenuItem.js";

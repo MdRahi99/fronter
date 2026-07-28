@@ -1,8 +1,3 @@
-// VERSION B — Retrieval-Augmented Generation (RAG)
-// Instead of putting the WHOLE menu in the prompt (Version A), we embed the
-// customer's order, retrieve only the most relevant menu items, and put just
-// those in the prompt. Smaller prompt, focused context.
-
 import { chat } from "../llm/ollama.js";
 import { retrieve } from "../rag/vectorStore.js";
 

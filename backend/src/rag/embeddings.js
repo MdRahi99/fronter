@@ -1,8 +1,3 @@
-// embeddings.js — turn text into vectors using Ollama's local embedding model.
-// Uses the modern /api/embed endpoint, which returns L2-normalised vectors
-// (so cosine similarity is just a dot product). Same model is used for both
-// indexing the menu and querying — required for meaningful similarity.
-
 const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
 const EMBED_MODEL = process.env.EMBED_MODEL || "nomic-embed-text";
 

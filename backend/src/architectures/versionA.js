@@ -1,7 +1,3 @@
-// VERSION A — Direct Prompt
-// The simplest baseline: put the ENTIRE menu in the prompt and ask the model
-// to return the order as JSON in one shot. No retrieval, no tools, no validation.
-
 import { chat } from "../llm/ollama.js";
 import { MenuItem } from "../models/MenuItem.js";
 

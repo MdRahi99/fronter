@@ -1,21 +1,3 @@
-// VERSION D -- Adaptive Hybrid Architecture (the contribution).
-//
-// Pipeline:
-//   customer text
-//     -> router (Python: safety rules + ML classifier) decides:
-//          reject  -> refuse politely (no LLM call needed)
-//          clarify -> ask a question (no cart built)
-//          execute -> build the cart with a fast direct-prompt builder
-//     -> validator (Node: checks cart vs MongoDB menu) cleans the result
-//     -> return final order + metrics
-//
-// DESIGN RATIONALE (dissertation):
-//   D does not invent a new ordering method. It ROUTES each order to the approach
-//   that handles it best (direct build for clear orders, clarify for unclear,
-//   reject for attacks), then VALIDATES every result against the menu. This gives
-//   A/B-level accuracy on simple orders WITHOUT their hallucination risk, plus
-//   C-level caution on hard orders, in one architecture.
-
 import { spawn } from "child_process";
 import path from "path";
 import { fileURLToPath } from "url";

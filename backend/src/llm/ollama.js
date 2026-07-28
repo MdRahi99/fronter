@@ -1,6 +1,3 @@
-// Thin wrapper around the local Ollama REST API (http://localhost:11434).
-// Every architecture (A/B/C/D) calls the LLM through this one helper, so timing
-// and token counts are captured consistently for the evaluation later.
 import { chat as groqChat, isGroqModel } from "./groq.js";
 
 const OLLAMA_URL = process.env.OLLAMA_URL || "http://localhost:11434";
