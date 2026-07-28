@@ -1,5 +1,5 @@
 {
-  "restaurant": "QuickBite",
+  "restaurant": "Fronter",
   "currency": "GBP",
   "schemaVersion": "1.0",
   "lastUpdated": "2026-06-11",
@@ -7,11 +7,7 @@
     {
       "itemId": "BRG-001",
       "name": "Cheeseburger",
-      "aliases": [
-        "cheese burger",
-        "cheeseburgers",
-        "burger with cheese"
-      ],
+      "aliases": ["cheese burger", "cheeseburgers", "burger with cheese"],
       "category": "burgers",
       "description": "Beef patty, cheddar, lettuce, tomato, onions, pickles",
       "basePrice": 4.49,
@@ -52,11 +48,7 @@
     {
       "itemId": "BRG-002",
       "name": "Classic Hamburger",
-      "aliases": [
-        "hamburger",
-        "plain burger",
-        "beef burger"
-      ],
+      "aliases": ["hamburger", "plain burger", "beef burger"],
       "category": "burgers",
       "description": "Beef patty, lettuce, tomato, onions, ketchup",
       "basePrice": 3.99,
@@ -71,12 +63,7 @@
           "priceModifier": 1.5
         }
       ],
-      "removableIngredients": [
-        "lettuce",
-        "tomato",
-        "onions",
-        "ketchup"
-      ],
+      "removableIngredients": ["lettuce", "tomato", "onions", "ketchup"],
       "addons": [
         {
           "name": "cheese",
@@ -148,10 +135,7 @@
           "priceModifier": 0
         }
       ],
-      "removableIngredients": [
-        "mayo",
-        "lettuce"
-      ],
+      "removableIngredients": ["mayo", "lettuce"],
       "addons": [
         {
           "name": "cheese",
@@ -182,11 +166,7 @@
           "priceModifier": 0
         }
       ],
-      "removableIngredients": [
-        "sriracha mayo",
-        "lettuce",
-        "jalapenos"
-      ],
+      "removableIngredients": ["sriracha mayo", "lettuce", "jalapenos"],
       "addons": [
         {
           "name": "cheese",
@@ -202,10 +182,7 @@
     {
       "itemId": "BRG-006",
       "name": "Veggie Burger",
-      "aliases": [
-        "vegetarian burger",
-        "veggie patty burger"
-      ],
+      "aliases": ["vegetarian burger", "veggie patty burger"],
       "category": "burgers",
       "description": "Grilled vegetable patty, lettuce, tomato, vegan mayo",
       "basePrice": 4.49,
@@ -216,11 +193,7 @@
           "priceModifier": 0
         }
       ],
-      "removableIngredients": [
-        "lettuce",
-        "tomato",
-        "vegan mayo"
-      ],
+      "removableIngredients": ["lettuce", "tomato", "vegan mayo"],
       "addons": [
         {
           "name": "cheese",
@@ -236,11 +209,7 @@
     {
       "itemId": "BRG-007",
       "name": "Fish Burger",
-      "aliases": [
-        "fish sandwich",
-        "fishburger",
-        "fish fillet burger"
-      ],
+      "aliases": ["fish sandwich", "fishburger", "fish fillet burger"],
       "category": "burgers",
       "description": "Breaded fish fillet, tartare sauce, lettuce",
       "basePrice": 4.69,
@@ -251,10 +220,7 @@
           "priceModifier": 0
         }
       ],
-      "removableIngredients": [
-        "tartare sauce",
-        "lettuce"
-      ],
+      "removableIngredients": ["tartare sauce", "lettuce"],
       "addons": [
         {
           "name": "cheese",
@@ -266,11 +232,7 @@
     {
       "itemId": "BRG-008",
       "name": "Plant-Based Deluxe Burger",
-      "aliases": [
-        "plant based burger",
-        "vegan deluxe burger",
-        "vegan burger"
-      ],
+      "aliases": ["plant based burger", "vegan deluxe burger", "vegan burger"],
       "category": "burgers",
       "description": "Plant-based patty, vegan cheese, lettuce, tomato, vegan mayo",
       "basePrice": 5.49,
@@ -293,11 +255,7 @@
     {
       "itemId": "CHK-001",
       "name": "Chicken Nuggets",
-      "aliases": [
-        "nuggets",
-        "chicken bites",
-        "nuggs"
-      ],
+      "aliases": ["nuggets", "chicken bites", "nuggs"],
       "category": "chicken",
       "description": "Crispy chicken nuggets with choice of dip",
       "basePrice": 3.49,
@@ -328,11 +286,7 @@
     {
       "itemId": "CHK-002",
       "name": "Chicken Wings",
-      "aliases": [
-        "wings",
-        "hot wings",
-        "buffalo wings"
-      ],
+      "aliases": ["wings", "hot wings", "buffalo wings"],
       "category": "chicken",
       "description": "Spicy chicken wings",
       "basePrice": 4.29,
@@ -363,11 +317,7 @@
     {
       "itemId": "CHK-003",
       "name": "Chicken Tenders",
-      "aliases": [
-        "tenders",
-        "chicken strips",
-        "chicken fingers"
-      ],
+      "aliases": ["tenders", "chicken strips", "chicken fingers"],
       "category": "chicken",
       "description": "Breaded chicken tenders",
       "basePrice": 4.49,
@@ -394,11 +344,7 @@
     {
       "itemId": "SID-001",
       "name": "Fries",
-      "aliases": [
-        "french fries",
-        "chips",
-        "fried potatoes"
-      ],
+      "aliases": ["french fries", "chips", "fried potatoes"],
       "category": "sides",
       "description": "Golden crispy fries",
       "basePrice": 1.99,
@@ -417,9 +363,7 @@
           "priceModifier": 1.0
         }
       ],
-      "removableIngredients": [
-        "salt"
-      ],
+      "removableIngredients": ["salt"],
       "addons": [
         {
           "name": "cheese sauce",
@@ -431,10 +375,7 @@
     {
       "itemId": "SID-002",
       "name": "Curly Fries",
-      "aliases": [
-        "curly chips",
-        "twister fries"
-      ],
+      "aliases": ["curly chips", "twister fries"],
       "category": "sides",
       "description": "Seasoned curly fries",
       "basePrice": 2.49,
@@ -461,11 +402,7 @@
     {
       "itemId": "SID-003",
       "name": "Side Salad",
-      "aliases": [
-        "salad",
-        "garden salad",
-        "green salad"
-      ],
+      "aliases": ["salad", "garden salad", "green salad"],
       "category": "sides",
       "description": "Lettuce, tomato, cucumber, dressing",
       "basePrice": 2.49,
@@ -476,11 +413,7 @@
           "priceModifier": 0
         }
       ],
-      "removableIngredients": [
-        "tomato",
-        "cucumber",
-        "dressing"
-      ],
+      "removableIngredients": ["tomato", "cucumber", "dressing"],
       "addons": [
         {
           "name": "grilled chicken",
@@ -492,10 +425,7 @@
     {
       "itemId": "SID-004",
       "name": "Onion Rings",
-      "aliases": [
-        "rings",
-        "fried onion rings"
-      ],
+      "aliases": ["rings", "fried onion rings"],
       "category": "sides",
       "description": "Battered onion rings",
       "basePrice": 2.79,
@@ -517,11 +447,7 @@
     {
       "itemId": "SID-005",
       "name": "Mozzarella Sticks",
-      "aliases": [
-        "cheese sticks",
-        "mozz sticks",
-        "fried cheese"
-      ],
+      "aliases": ["cheese sticks", "mozz sticks", "fried cheese"],
       "category": "sides",
       "description": "Breaded mozzarella sticks with marinara dip",
       "basePrice": 3.29,
@@ -544,10 +470,7 @@
     {
       "itemId": "SID-006",
       "name": "Coleslaw",
-      "aliases": [
-        "slaw",
-        "cabbage salad"
-      ],
+      "aliases": ["slaw", "cabbage salad"],
       "category": "sides",
       "description": "Creamy coleslaw",
       "basePrice": 1.79,
@@ -565,10 +488,7 @@
     {
       "itemId": "SID-007",
       "name": "Sweet Potato Fries",
-      "aliases": [
-        "sweet fries",
-        "sweet potato chips"
-      ],
+      "aliases": ["sweet fries", "sweet potato chips"],
       "category": "sides",
       "description": "Crispy sweet potato fries",
       "basePrice": 2.99,
@@ -590,11 +510,7 @@
     {
       "itemId": "DRK-001",
       "name": "Cola",
-      "aliases": [
-        "coke",
-        "cola drink",
-        "fizzy cola"
-      ],
+      "aliases": ["coke", "cola drink", "fizzy cola"],
       "category": "drinks",
       "description": "Classic cola",
       "basePrice": 1.49,
@@ -613,20 +529,14 @@
           "priceModifier": 0.8
         }
       ],
-      "removableIngredients": [
-        "ice"
-      ],
+      "removableIngredients": ["ice"],
       "addons": [],
       "maxQuantityPerOrder": 10
     },
     {
       "itemId": "DRK-002",
       "name": "Diet Cola",
-      "aliases": [
-        "diet coke",
-        "sugar free cola",
-        "zero cola"
-      ],
+      "aliases": ["diet coke", "sugar free cola", "zero cola"],
       "category": "drinks",
       "description": "Sugar-free cola",
       "basePrice": 1.49,
@@ -645,19 +555,14 @@
           "priceModifier": 0.8
         }
       ],
-      "removableIngredients": [
-        "ice"
-      ],
+      "removableIngredients": ["ice"],
       "addons": [],
       "maxQuantityPerOrder": 10
     },
     {
       "itemId": "DRK-003",
       "name": "Lemonade",
-      "aliases": [
-        "lemon drink",
-        "fizzy lemonade"
-      ],
+      "aliases": ["lemon drink", "fizzy lemonade"],
       "category": "drinks",
       "description": "Sparkling lemonade",
       "basePrice": 1.49,
@@ -676,20 +581,14 @@
           "priceModifier": 0.8
         }
       ],
-      "removableIngredients": [
-        "ice"
-      ],
+      "removableIngredients": ["ice"],
       "addons": [],
       "maxQuantityPerOrder": 10
     },
     {
       "itemId": "DRK-004",
       "name": "Orange Juice",
-      "aliases": [
-        "oj",
-        "orange drink",
-        "fresh orange"
-      ],
+      "aliases": ["oj", "orange drink", "fresh orange"],
       "category": "drinks",
       "description": "Fresh orange juice",
       "basePrice": 1.99,
@@ -707,11 +606,7 @@
     {
       "itemId": "DRK-005",
       "name": "Bottled Water",
-      "aliases": [
-        "water",
-        "still water",
-        "mineral water"
-      ],
+      "aliases": ["water", "still water", "mineral water"],
       "category": "drinks",
       "description": "Still mineral water",
       "basePrice": 1.19,
@@ -729,11 +624,7 @@
     {
       "itemId": "DRK-006",
       "name": "Chocolate Milkshake",
-      "aliases": [
-        "chocolate shake",
-        "choc milkshake",
-        "chocolate smoothie"
-      ],
+      "aliases": ["chocolate shake", "choc milkshake", "chocolate smoothie"],
       "category": "drinks",
       "description": "Thick chocolate milkshake",
       "basePrice": 2.99,
@@ -748,19 +639,14 @@
           "priceModifier": 0.7
         }
       ],
-      "removableIngredients": [
-        "whipped cream"
-      ],
+      "removableIngredients": ["whipped cream"],
       "addons": [],
       "maxQuantityPerOrder": 10
     },
     {
       "itemId": "DRK-007",
       "name": "Strawberry Milkshake",
-      "aliases": [
-        "strawberry shake",
-        "pink milkshake"
-      ],
+      "aliases": ["strawberry shake", "pink milkshake"],
       "category": "drinks",
       "description": "Thick strawberry milkshake",
       "basePrice": 2.99,
@@ -775,19 +661,14 @@
           "priceModifier": 0.7
         }
       ],
-      "removableIngredients": [
-        "whipped cream"
-      ],
+      "removableIngredients": ["whipped cream"],
       "addons": [],
       "maxQuantityPerOrder": 10
     },
     {
       "itemId": "DRK-008",
       "name": "Vanilla Milkshake",
-      "aliases": [
-        "vanilla shake",
-        "plain milkshake"
-      ],
+      "aliases": ["vanilla shake", "plain milkshake"],
       "category": "drinks",
       "description": "Thick vanilla milkshake",
       "basePrice": 2.99,
@@ -802,20 +683,14 @@
           "priceModifier": 0.7
         }
       ],
-      "removableIngredients": [
-        "whipped cream"
-      ],
+      "removableIngredients": ["whipped cream"],
       "addons": [],
       "maxQuantityPerOrder": 10
     },
     {
       "itemId": "DRK-009",
       "name": "Coffee",
-      "aliases": [
-        "hot coffee",
-        "americano",
-        "black coffee"
-      ],
+      "aliases": ["hot coffee", "americano", "black coffee"],
       "category": "drinks",
       "description": "Freshly brewed coffee",
       "basePrice": 1.79,
@@ -830,10 +705,7 @@
           "priceModifier": 0.5
         }
       ],
-      "removableIngredients": [
-        "milk",
-        "sugar"
-      ],
+      "removableIngredients": ["milk", "sugar"],
       "addons": [
         {
           "name": "extra shot",
@@ -845,11 +717,7 @@
     {
       "itemId": "DES-001",
       "name": "Ice Cream Sundae",
-      "aliases": [
-        "sundae",
-        "ice cream",
-        "icecream sundae"
-      ],
+      "aliases": ["sundae", "ice cream", "icecream sundae"],
       "category": "desserts",
       "description": "Vanilla ice cream with chocolate sauce",
       "basePrice": 2.49,
@@ -860,10 +728,7 @@
           "priceModifier": 0
         }
       ],
-      "removableIngredients": [
-        "chocolate sauce",
-        "sprinkles"
-      ],
+      "removableIngredients": ["chocolate sauce", "sprinkles"],
       "addons": [
         {
           "name": "extra sauce",
@@ -879,10 +744,7 @@
     {
       "itemId": "DES-002",
       "name": "Apple Pie",
-      "aliases": [
-        "pie",
-        "hot apple pie"
-      ],
+      "aliases": ["pie", "hot apple pie"],
       "category": "desserts",
       "description": "Hot apple pie slice",
       "basePrice": 1.99,
@@ -905,10 +767,7 @@
     {
       "itemId": "DES-003",
       "name": "Chocolate Brownie",
-      "aliases": [
-        "brownie",
-        "choc brownie"
-      ],
+      "aliases": ["brownie", "choc brownie"],
       "category": "desserts",
       "description": "Warm chocolate brownie",
       "basePrice": 2.29,
@@ -931,11 +790,7 @@
     {
       "itemId": "DES-004",
       "name": "Cookies",
-      "aliases": [
-        "cookie",
-        "chocolate chip cookies",
-        "biscuits"
-      ],
+      "aliases": ["cookie", "chocolate chip cookies", "biscuits"],
       "category": "desserts",
       "description": "Chocolate chip cookies",
       "basePrice": 1.49,
@@ -957,11 +812,7 @@
     {
       "itemId": "DES-005",
       "name": "Glazed Donut",
-      "aliases": [
-        "donut",
-        "doughnut",
-        "glazed doughnut"
-      ],
+      "aliases": ["donut", "doughnut", "glazed doughnut"],
       "category": "desserts",
       "description": "Classic glazed donut",
       "basePrice": 1.69,
@@ -1059,11 +910,7 @@
     {
       "itemId": "MEAL-002",
       "name": "BBQ Burger Meal",
-      "aliases": [
-        "bbq meal",
-        "bbq burger combo",
-        "turkey rasher burger meal"
-      ],
+      "aliases": ["bbq meal", "bbq burger combo", "turkey rasher burger meal"],
       "category": "meals",
       "description": "BBQ turkey rasher burger with fries and a drink",
       "basePrice": 7.99,
@@ -1225,11 +1072,7 @@
     {
       "itemId": "MEAL-004",
       "name": "Nugget Meal",
-      "aliases": [
-        "nuggets meal",
-        "nugget combo",
-        "chicken nugget meal"
-      ],
+      "aliases": ["nuggets meal", "nugget combo", "chicken nugget meal"],
       "category": "meals",
       "description": "9-piece chicken nuggets with fries and a drink",
       "basePrice": 6.99,
@@ -1285,11 +1128,7 @@
     {
       "itemId": "MEAL-005",
       "name": "Veggie Meal",
-      "aliases": [
-        "vegetarian meal",
-        "veggie combo",
-        "veggie burger meal"
-      ],
+      "aliases": ["vegetarian meal", "veggie combo", "veggie burger meal"],
       "category": "meals",
       "description": "Veggie burger with fries and a drink",
       "basePrice": 6.49,
@@ -1349,11 +1188,7 @@
     {
       "itemId": "MEAL-006",
       "name": "Kids Meal",
-      "aliases": [
-        "kids combo",
-        "children's meal",
-        "happy kids meal"
-      ],
+      "aliases": ["kids combo", "children's meal", "happy kids meal"],
       "category": "meals",
       "description": "Small hamburger or 6 nuggets with small fries and small drink",
       "basePrice": 4.49,
@@ -1405,11 +1240,7 @@
     {
       "itemId": "MEAL-007",
       "name": "Family Bundle",
-      "aliases": [
-        "family meal",
-        "family box",
-        "sharing bundle"
-      ],
+      "aliases": ["family meal", "family box", "sharing bundle"],
       "category": "meals",
       "description": "4 cheeseburgers, 2 large fries, 4 drinks",
       "basePrice": 19.99,
