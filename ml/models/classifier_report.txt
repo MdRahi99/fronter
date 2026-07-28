@@ -1,0 +1,31 @@
+fronter Version D - order-type classifier
+Best model: Random Forest (51.9% cross-validated)
+
+Cross-validated accuracy of all candidates:
+  Logistic Regression           49.0%
+  Random Forest                 51.9%
+  Linear SVM                    50.5%
+  Baseline (most-frequent)      16.7%
+
+Per-category report (best model):
+               precision    recall  f1-score   support
+
+  adversarial      0.667     0.171     0.273        35
+    ambiguous      0.408     0.571     0.476        35
+      complex      1.000     0.784     0.879        37
+contradictory      0.654     0.567     0.607        30
+   incomplete      0.421     0.457     0.438        35
+       simple      0.356     0.553     0.433        38
+
+     accuracy                          0.519       210
+    macro avg      0.584     0.517     0.518       210
+ weighted avg      0.583     0.519     0.518       210
+
+Confusion matrix (rows=true, cols=pred):
+labels: adversarial, ambiguous, complex, contradictory, incomplete, simple
+[[ 6 13  0  1  5 10]
+ [ 0 20  0  0  6  9]
+ [ 1  0 29  6  1  0]
+ [ 2  1  0 17  3  7]
+ [ 0  7  0  0 16 12]
+ [ 0  8  0  2  7 21]]

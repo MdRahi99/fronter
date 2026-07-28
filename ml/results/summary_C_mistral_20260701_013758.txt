@@ -1,0 +1,16 @@
+fronter evaluation summary
+Architecture: C   Model: mistral   Orders: 210   Time: 4002.8s
+----------------------------------------------------
+Overall accuracy        : 52.4%
+Hallucination rate      : 0.0%
+Clarification accuracy  : 100.0%
+Adversarial reject acc. : 0.0%
+Average latency         : 19053 ms
+----------------------------------------------------
+Per-category accuracy:
+  simple           0.0%   (0/38)   hall 0
+  complex          0.0%   (0/37)   hall 0
+  ambiguous      100.0%   (35/35)   hall 0
+  incomplete     100.0%   (35/35)   hall 0
+  contradictory  100.0%   (30/30)   hall 0
+  adversarial     28.6%   (10/35)   hall 0

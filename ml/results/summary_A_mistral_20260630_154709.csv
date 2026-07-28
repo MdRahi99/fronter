@@ -1,0 +1,8 @@
+category,n,accuracy_pct,hallucinations
+simple,38,65.8,0
+complex,35,31.4,2
+ambiguous,35,17.1,1
+incomplete,35,8.6,0
+contradictory,30,33.3,1
+adversarial,34,23.5,6
+OVERALL,207,30.4,10

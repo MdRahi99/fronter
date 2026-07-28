@@ -1,0 +1,34 @@
+fronter statistical tests - McNemar's exact test, D vs baselines
+An order counts as correct only if outcome AND items are both right.
+p < 0.05 means the difference is statistically significant.
+========================================================================
+
+MODEL: llama3
+  A: 59/210 correct = 28.1%   95% CI [22.5%, 34.5%]   (raw_A_llama3_20260629_231857.json)
+  B: 56/210 correct = 26.7%   95% CI [21.1%, 33.0%]   (raw_B_llama3_20260630_003422.json)
+  C: 108/210 correct = 51.4%   95% CI [44.7%, 58.1%]   (raw_C_llama3.1_20260630_013857.json)
+  D: 174/210 correct = 82.9%   95% CI [77.2%, 87.4%]   (raw_D_llama3_20260630_024336.json)
+  D vs baselines (paired on the same orders):
+    D vs A: n=210 paired | D-only-right=125 | A-only-right=10 | p < 0.001  -> SIGNIFICANT
+    D vs B: n=210 paired | D-only-right=133 | B-only-right=15 | p < 0.001  -> SIGNIFICANT
+    D vs C: n=210 paired | D-only-right=66 | C-only-right=0 | p < 0.001  -> SIGNIFICANT
+
+MODEL: mistral
+  A: 63/207 correct = 30.4%   95% CI [24.6%, 37.0%]   (raw_A_mistral_20260630_154709.json)
+  B: 50/208 correct = 24.0%   95% CI [18.7%, 30.3%]   (raw_B_mistral_20260630_234806.json)
+  C: 110/210 correct = 52.4%   95% CI [45.6%, 59.0%]   (raw_C_mistral_20260701_013758.json)
+  D: 172/210 correct = 81.9%   95% CI [76.1%, 86.5%]   (raw_D_mistral_20260701_024455.json)
+  D vs baselines (paired on the same orders):
+    D vs A: n=207 paired | D-only-right=120 | A-only-right=12 | p < 0.001  -> SIGNIFICANT
+    D vs B: n=208 paired | D-only-right=135 | B-only-right=15 | p < 0.001  -> SIGNIFICANT
+    D vs C: n=210 paired | D-only-right=62 | C-only-right=0 | p < 0.001  -> SIGNIFICANT
+
+MODEL: qwen2.5
+  A: 60/209 correct = 28.7%   95% CI [23.0%, 35.2%]   (raw_A_qwen2.5_20260707_110634.json)
+  B: 67/210 correct = 31.9%   95% CI [26.0%, 38.5%]   (raw_B_qwen2.5_20260707_132447.json)
+  C: 103/209 correct = 49.3%   95% CI [42.6%, 56.0%]   (raw_C_qwen2.5_20260707_231803.json)
+  D: 188/210 correct = 89.5%   95% CI [84.6%, 93.0%]   (raw_D_qwen2.5_20260708_005633.json)
+  D vs baselines (paired on the same orders):
+    D vs A: n=209 paired | D-only-right=131 | A-only-right=4 | p < 0.001  -> SIGNIFICANT
+    D vs B: n=210 paired | D-only-right=126 | B-only-right=5 | p < 0.001  -> SIGNIFICANT
+    D vs C: n=209 paired | D-only-right=90 | C-only-right=5 | p < 0.001  -> SIGNIFICANT

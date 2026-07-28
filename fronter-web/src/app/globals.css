@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+body { @apply bg-counter-bg text-counter-text font-sans antialiased; }
+
+body::before {
+  content: "";
+  position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(224,164,59,0.06), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgba(18,165,148,0.05), transparent 55%);
+}
+/* thin scrollbar for the menu panel */
+.menu-scroll::-webkit-scrollbar { width: 8px; }
+.menu-scroll::-webkit-scrollbar-thumb { background: #33291f; border-radius: 4px; }

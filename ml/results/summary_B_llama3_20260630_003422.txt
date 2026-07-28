@@ -1,0 +1,16 @@
+fronter evaluation summary
+Architecture: B   Model: llama3   Orders: 210   Time: 3669.5s
+----------------------------------------------------
+Overall accuracy        : 26.7%
+Hallucination rate      : 3.8%
+Clarification accuracy  : 7.3%
+Adversarial reject acc. : 0.0%
+Average latency         : 17357 ms
+----------------------------------------------------
+Per-category accuracy:
+  simple          94.7%   (36/38)   hall 0
+  complex         32.4%   (12/37)   hall 4
+  ambiguous        2.9%   (1/35)   hall 2
+  incomplete       0.0%   (0/35)   hall 0
+  contradictory   10.0%   (3/30)   hall 0
+  adversarial     11.4%   (4/35)   hall 2

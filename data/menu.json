@@ -1,0 +1,1460 @@
+{
+  "restaurant": "QuickBite",
+  "currency": "GBP",
+  "schemaVersion": "1.0",
+  "lastUpdated": "2026-06-11",
+  "items": [
+    {
+      "itemId": "BRG-001",
+      "name": "Cheeseburger",
+      "aliases": [
+        "cheese burger",
+        "cheeseburgers",
+        "burger with cheese"
+      ],
+      "category": "burgers",
+      "description": "Beef patty, cheddar, lettuce, tomato, onions, pickles",
+      "basePrice": 4.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        },
+        {
+          "name": "double",
+          "priceModifier": 1.5
+        }
+      ],
+      "removableIngredients": [
+        "cheese",
+        "lettuce",
+        "tomato",
+        "onions",
+        "pickles"
+      ],
+      "addons": [
+        {
+          "name": "extra cheese",
+          "price": 0.6
+        },
+        {
+          "name": "turkey rashers",
+          "price": 1.0
+        },
+        {
+          "name": "extra patty",
+          "price": 1.5
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "BRG-002",
+      "name": "Classic Hamburger",
+      "aliases": [
+        "hamburger",
+        "plain burger",
+        "beef burger"
+      ],
+      "category": "burgers",
+      "description": "Beef patty, lettuce, tomato, onions, ketchup",
+      "basePrice": 3.99,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        },
+        {
+          "name": "double",
+          "priceModifier": 1.5
+        }
+      ],
+      "removableIngredients": [
+        "lettuce",
+        "tomato",
+        "onions",
+        "ketchup"
+      ],
+      "addons": [
+        {
+          "name": "cheese",
+          "price": 0.6
+        },
+        {
+          "name": "turkey rashers",
+          "price": 1.0
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "BRG-003",
+      "name": "BBQ Turkey Rasher Burger",
+      "aliases": [
+        "bbq burger",
+        "turkey rasher burger",
+        "barbecue burger",
+        "smoky bbq burger"
+      ],
+      "category": "burgers",
+      "description": "Beef patty, turkey rashers, cheddar, BBQ sauce, crispy onions",
+      "basePrice": 5.99,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        },
+        {
+          "name": "double",
+          "priceModifier": 1.5
+        }
+      ],
+      "removableIngredients": [
+        "turkey rashers",
+        "cheese",
+        "bbq sauce",
+        "crispy onions"
+      ],
+      "addons": [
+        {
+          "name": "extra turkey rashers",
+          "price": 1.0
+        },
+        {
+          "name": "jalapenos",
+          "price": 0.5
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "BRG-004",
+      "name": "Crispy Chicken Burger",
+      "aliases": [
+        "chicken burger",
+        "chicken sandwich",
+        "crispy chicken sandwich"
+      ],
+      "category": "burgers",
+      "description": "Crispy fried chicken fillet, mayo, lettuce",
+      "basePrice": 4.79,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [
+        "mayo",
+        "lettuce"
+      ],
+      "addons": [
+        {
+          "name": "cheese",
+          "price": 0.6
+        },
+        {
+          "name": "turkey rashers",
+          "price": 1.0
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "BRG-005",
+      "name": "Spicy Chicken Burger",
+      "aliases": [
+        "spicy chicken sandwich",
+        "hot chicken burger",
+        "spicy burger"
+      ],
+      "category": "burgers",
+      "description": "Spicy fried chicken fillet, sriracha mayo, lettuce, jalapenos",
+      "basePrice": 4.99,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [
+        "sriracha mayo",
+        "lettuce",
+        "jalapenos"
+      ],
+      "addons": [
+        {
+          "name": "cheese",
+          "price": 0.6
+        },
+        {
+          "name": "extra jalapenos",
+          "price": 0.5
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "BRG-006",
+      "name": "Veggie Burger",
+      "aliases": [
+        "vegetarian burger",
+        "veggie patty burger"
+      ],
+      "category": "burgers",
+      "description": "Grilled vegetable patty, lettuce, tomato, vegan mayo",
+      "basePrice": 4.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [
+        "lettuce",
+        "tomato",
+        "vegan mayo"
+      ],
+      "addons": [
+        {
+          "name": "cheese",
+          "price": 0.6
+        },
+        {
+          "name": "avocado",
+          "price": 1.0
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "BRG-007",
+      "name": "Fish Burger",
+      "aliases": [
+        "fish sandwich",
+        "fishburger",
+        "fish fillet burger"
+      ],
+      "category": "burgers",
+      "description": "Breaded fish fillet, tartare sauce, lettuce",
+      "basePrice": 4.69,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [
+        "tartare sauce",
+        "lettuce"
+      ],
+      "addons": [
+        {
+          "name": "cheese",
+          "price": 0.6
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "BRG-008",
+      "name": "Plant-Based Deluxe Burger",
+      "aliases": [
+        "plant based burger",
+        "vegan deluxe burger",
+        "vegan burger"
+      ],
+      "category": "burgers",
+      "description": "Plant-based patty, vegan cheese, lettuce, tomato, vegan mayo",
+      "basePrice": 5.49,
+      "available": false,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [
+        "vegan cheese",
+        "lettuce",
+        "tomato",
+        "vegan mayo"
+      ],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "CHK-001",
+      "name": "Chicken Nuggets",
+      "aliases": [
+        "nuggets",
+        "chicken bites",
+        "nuggs"
+      ],
+      "category": "chicken",
+      "description": "Crispy chicken nuggets with choice of dip",
+      "basePrice": 3.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "6 pieces",
+          "priceModifier": 0
+        },
+        {
+          "name": "9 pieces",
+          "priceModifier": 1.3
+        },
+        {
+          "name": "20 pieces",
+          "priceModifier": 4.5
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [
+        {
+          "name": "extra dip",
+          "price": 0.4
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "CHK-002",
+      "name": "Chicken Wings",
+      "aliases": [
+        "wings",
+        "hot wings",
+        "buffalo wings"
+      ],
+      "category": "chicken",
+      "description": "Spicy chicken wings",
+      "basePrice": 4.29,
+      "available": true,
+      "sizes": [
+        {
+          "name": "6 pieces",
+          "priceModifier": 0
+        },
+        {
+          "name": "12 pieces",
+          "priceModifier": 3.5
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [
+        {
+          "name": "blue cheese dip",
+          "price": 0.5
+        },
+        {
+          "name": "ranch dip",
+          "price": 0.5
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "CHK-003",
+      "name": "Chicken Tenders",
+      "aliases": [
+        "tenders",
+        "chicken strips",
+        "chicken fingers"
+      ],
+      "category": "chicken",
+      "description": "Breaded chicken tenders",
+      "basePrice": 4.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "3 pieces",
+          "priceModifier": 0
+        },
+        {
+          "name": "5 pieces",
+          "priceModifier": 1.8
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [
+        {
+          "name": "extra dip",
+          "price": 0.4
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "SID-001",
+      "name": "Fries",
+      "aliases": [
+        "french fries",
+        "chips",
+        "fried potatoes"
+      ],
+      "category": "sides",
+      "description": "Golden crispy fries",
+      "basePrice": 1.99,
+      "available": true,
+      "sizes": [
+        {
+          "name": "small",
+          "priceModifier": 0
+        },
+        {
+          "name": "medium",
+          "priceModifier": 0.5
+        },
+        {
+          "name": "large",
+          "priceModifier": 1.0
+        }
+      ],
+      "removableIngredients": [
+        "salt"
+      ],
+      "addons": [
+        {
+          "name": "cheese sauce",
+          "price": 0.7
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "SID-002",
+      "name": "Curly Fries",
+      "aliases": [
+        "curly chips",
+        "twister fries"
+      ],
+      "category": "sides",
+      "description": "Seasoned curly fries",
+      "basePrice": 2.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        },
+        {
+          "name": "large",
+          "priceModifier": 0.8
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [
+        {
+          "name": "cheese sauce",
+          "price": 0.7
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "SID-003",
+      "name": "Side Salad",
+      "aliases": [
+        "salad",
+        "garden salad",
+        "green salad"
+      ],
+      "category": "sides",
+      "description": "Lettuce, tomato, cucumber, dressing",
+      "basePrice": 2.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [
+        "tomato",
+        "cucumber",
+        "dressing"
+      ],
+      "addons": [
+        {
+          "name": "grilled chicken",
+          "price": 1.5
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "SID-004",
+      "name": "Onion Rings",
+      "aliases": [
+        "rings",
+        "fried onion rings"
+      ],
+      "category": "sides",
+      "description": "Battered onion rings",
+      "basePrice": 2.79,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        },
+        {
+          "name": "large",
+          "priceModifier": 0.8
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "SID-005",
+      "name": "Mozzarella Sticks",
+      "aliases": [
+        "cheese sticks",
+        "mozz sticks",
+        "fried cheese"
+      ],
+      "category": "sides",
+      "description": "Breaded mozzarella sticks with marinara dip",
+      "basePrice": 3.29,
+      "available": true,
+      "sizes": [
+        {
+          "name": "5 pieces",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [
+        {
+          "name": "extra marinara",
+          "price": 0.4
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "SID-006",
+      "name": "Coleslaw",
+      "aliases": [
+        "slaw",
+        "cabbage salad"
+      ],
+      "category": "sides",
+      "description": "Creamy coleslaw",
+      "basePrice": 1.79,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "SID-007",
+      "name": "Sweet Potato Fries",
+      "aliases": [
+        "sweet fries",
+        "sweet potato chips"
+      ],
+      "category": "sides",
+      "description": "Crispy sweet potato fries",
+      "basePrice": 2.99,
+      "available": false,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        },
+        {
+          "name": "large",
+          "priceModifier": 0.8
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DRK-001",
+      "name": "Cola",
+      "aliases": [
+        "coke",
+        "cola drink",
+        "fizzy cola"
+      ],
+      "category": "drinks",
+      "description": "Classic cola",
+      "basePrice": 1.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "small",
+          "priceModifier": 0
+        },
+        {
+          "name": "medium",
+          "priceModifier": 0.4
+        },
+        {
+          "name": "large",
+          "priceModifier": 0.8
+        }
+      ],
+      "removableIngredients": [
+        "ice"
+      ],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DRK-002",
+      "name": "Diet Cola",
+      "aliases": [
+        "diet coke",
+        "sugar free cola",
+        "zero cola"
+      ],
+      "category": "drinks",
+      "description": "Sugar-free cola",
+      "basePrice": 1.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "small",
+          "priceModifier": 0
+        },
+        {
+          "name": "medium",
+          "priceModifier": 0.4
+        },
+        {
+          "name": "large",
+          "priceModifier": 0.8
+        }
+      ],
+      "removableIngredients": [
+        "ice"
+      ],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DRK-003",
+      "name": "Lemonade",
+      "aliases": [
+        "lemon drink",
+        "fizzy lemonade"
+      ],
+      "category": "drinks",
+      "description": "Sparkling lemonade",
+      "basePrice": 1.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "small",
+          "priceModifier": 0
+        },
+        {
+          "name": "medium",
+          "priceModifier": 0.4
+        },
+        {
+          "name": "large",
+          "priceModifier": 0.8
+        }
+      ],
+      "removableIngredients": [
+        "ice"
+      ],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DRK-004",
+      "name": "Orange Juice",
+      "aliases": [
+        "oj",
+        "orange drink",
+        "fresh orange"
+      ],
+      "category": "drinks",
+      "description": "Fresh orange juice",
+      "basePrice": 1.99,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DRK-005",
+      "name": "Bottled Water",
+      "aliases": [
+        "water",
+        "still water",
+        "mineral water"
+      ],
+      "category": "drinks",
+      "description": "Still mineral water",
+      "basePrice": 1.19,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DRK-006",
+      "name": "Chocolate Milkshake",
+      "aliases": [
+        "chocolate shake",
+        "choc milkshake",
+        "chocolate smoothie"
+      ],
+      "category": "drinks",
+      "description": "Thick chocolate milkshake",
+      "basePrice": 2.99,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        },
+        {
+          "name": "large",
+          "priceModifier": 0.7
+        }
+      ],
+      "removableIngredients": [
+        "whipped cream"
+      ],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DRK-007",
+      "name": "Strawberry Milkshake",
+      "aliases": [
+        "strawberry shake",
+        "pink milkshake"
+      ],
+      "category": "drinks",
+      "description": "Thick strawberry milkshake",
+      "basePrice": 2.99,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        },
+        {
+          "name": "large",
+          "priceModifier": 0.7
+        }
+      ],
+      "removableIngredients": [
+        "whipped cream"
+      ],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DRK-008",
+      "name": "Vanilla Milkshake",
+      "aliases": [
+        "vanilla shake",
+        "plain milkshake"
+      ],
+      "category": "drinks",
+      "description": "Thick vanilla milkshake",
+      "basePrice": 2.99,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        },
+        {
+          "name": "large",
+          "priceModifier": 0.7
+        }
+      ],
+      "removableIngredients": [
+        "whipped cream"
+      ],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DRK-009",
+      "name": "Coffee",
+      "aliases": [
+        "hot coffee",
+        "americano",
+        "black coffee"
+      ],
+      "category": "drinks",
+      "description": "Freshly brewed coffee",
+      "basePrice": 1.79,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        },
+        {
+          "name": "large",
+          "priceModifier": 0.5
+        }
+      ],
+      "removableIngredients": [
+        "milk",
+        "sugar"
+      ],
+      "addons": [
+        {
+          "name": "extra shot",
+          "price": 0.6
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DES-001",
+      "name": "Ice Cream Sundae",
+      "aliases": [
+        "sundae",
+        "ice cream",
+        "icecream sundae"
+      ],
+      "category": "desserts",
+      "description": "Vanilla ice cream with chocolate sauce",
+      "basePrice": 2.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [
+        "chocolate sauce",
+        "sprinkles"
+      ],
+      "addons": [
+        {
+          "name": "extra sauce",
+          "price": 0.4
+        },
+        {
+          "name": "flake",
+          "price": 0.5
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DES-002",
+      "name": "Apple Pie",
+      "aliases": [
+        "pie",
+        "hot apple pie"
+      ],
+      "category": "desserts",
+      "description": "Hot apple pie slice",
+      "basePrice": 1.99,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [
+        {
+          "name": "ice cream scoop",
+          "price": 0.8
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DES-003",
+      "name": "Chocolate Brownie",
+      "aliases": [
+        "brownie",
+        "choc brownie"
+      ],
+      "category": "desserts",
+      "description": "Warm chocolate brownie",
+      "basePrice": 2.29,
+      "available": true,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [
+        {
+          "name": "ice cream scoop",
+          "price": 0.8
+        }
+      ],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DES-004",
+      "name": "Cookies",
+      "aliases": [
+        "cookie",
+        "chocolate chip cookies",
+        "biscuits"
+      ],
+      "category": "desserts",
+      "description": "Chocolate chip cookies",
+      "basePrice": 1.49,
+      "available": true,
+      "sizes": [
+        {
+          "name": "2 pieces",
+          "priceModifier": 0
+        },
+        {
+          "name": "4 pieces",
+          "priceModifier": 1.2
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "DES-005",
+      "name": "Glazed Donut",
+      "aliases": [
+        "donut",
+        "doughnut",
+        "glazed doughnut"
+      ],
+      "category": "desserts",
+      "description": "Classic glazed donut",
+      "basePrice": 1.69,
+      "available": false,
+      "sizes": [
+        {
+          "name": "regular",
+          "priceModifier": 0
+        }
+      ],
+      "removableIngredients": [],
+      "addons": [],
+      "maxQuantityPerOrder": 10
+    },
+    {
+      "itemId": "MEAL-001",
+      "name": "Cheeseburger Meal",
+      "aliases": [
+        "cheeseburger combo",
+        "cheese burger meal",
+        "cheeseburger with fries and drink"
+      ],
+      "category": "meals",
+      "description": "Cheeseburger with fries and a drink",
+      "basePrice": 6.49,
+      "available": true,
+      "components": [
+        {
+          "slot": "main",
+          "default": "BRG-001",
+          "swappable": false
+        },
+        {
+          "slot": "side",
+          "default": "SID-001",
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "SID-003",
+              "priceModifier": 0.5
+            },
+            {
+              "itemId": "SID-004",
+              "priceModifier": 0.8
+            },
+            {
+              "itemId": "SID-002",
+              "priceModifier": 0.5
+            }
+          ]
+        },
+        {
+          "slot": "drink",
+          "default": null,
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "DRK-001",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-002",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-003",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-004",
+              "priceModifier": 0.5
+            },
+            {
+              "itemId": "DRK-005",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-006",
+              "priceModifier": 0.8
+            },
+            {
+              "itemId": "DRK-007",
+              "priceModifier": 0.8
+            },
+            {
+              "itemId": "DRK-008",
+              "priceModifier": 0.8
+            }
+          ]
+        }
+      ],
+      "maxQuantityPerOrder": 10,
+      "removableIngredients": []
+    },
+    {
+      "itemId": "MEAL-002",
+      "name": "BBQ Burger Meal",
+      "aliases": [
+        "bbq meal",
+        "bbq burger combo",
+        "turkey rasher burger meal"
+      ],
+      "category": "meals",
+      "description": "BBQ turkey rasher burger with fries and a drink",
+      "basePrice": 7.99,
+      "available": true,
+      "components": [
+        {
+          "slot": "main",
+          "default": "BRG-003",
+          "swappable": false
+        },
+        {
+          "slot": "side",
+          "default": "SID-001",
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "SID-003",
+              "priceModifier": 0.5
+            },
+            {
+              "itemId": "SID-004",
+              "priceModifier": 0.8
+            },
+            {
+              "itemId": "SID-002",
+              "priceModifier": 0.5
+            }
+          ]
+        },
+        {
+          "slot": "drink",
+          "default": null,
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "DRK-001",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-002",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-003",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-004",
+              "priceModifier": 0.5
+            },
+            {
+              "itemId": "DRK-005",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-006",
+              "priceModifier": 0.8
+            },
+            {
+              "itemId": "DRK-007",
+              "priceModifier": 0.8
+            },
+            {
+              "itemId": "DRK-008",
+              "priceModifier": 0.8
+            }
+          ]
+        }
+      ],
+      "maxQuantityPerOrder": 10,
+      "removableIngredients": []
+    },
+    {
+      "itemId": "MEAL-003",
+      "name": "Chicken Burger Meal",
+      "aliases": [
+        "chicken combo",
+        "chicken burger combo",
+        "chicken sandwich meal"
+      ],
+      "category": "meals",
+      "description": "Crispy chicken burger with fries and a drink",
+      "basePrice": 6.79,
+      "available": true,
+      "components": [
+        {
+          "slot": "main",
+          "default": "BRG-004",
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "BRG-005",
+              "priceModifier": 0.2
+            }
+          ]
+        },
+        {
+          "slot": "side",
+          "default": "SID-001",
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "SID-003",
+              "priceModifier": 0.5
+            },
+            {
+              "itemId": "SID-004",
+              "priceModifier": 0.8
+            },
+            {
+              "itemId": "SID-002",
+              "priceModifier": 0.5
+            }
+          ]
+        },
+        {
+          "slot": "drink",
+          "default": null,
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "DRK-001",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-002",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-003",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-004",
+              "priceModifier": 0.5
+            },
+            {
+              "itemId": "DRK-005",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-006",
+              "priceModifier": 0.8
+            },
+            {
+              "itemId": "DRK-007",
+              "priceModifier": 0.8
+            },
+            {
+              "itemId": "DRK-008",
+              "priceModifier": 0.8
+            }
+          ]
+        }
+      ],
+      "maxQuantityPerOrder": 10,
+      "removableIngredients": []
+    },
+    {
+      "itemId": "MEAL-004",
+      "name": "Nugget Meal",
+      "aliases": [
+        "nuggets meal",
+        "nugget combo",
+        "chicken nugget meal"
+      ],
+      "category": "meals",
+      "description": "9-piece chicken nuggets with fries and a drink",
+      "basePrice": 6.99,
+      "available": true,
+      "components": [
+        {
+          "slot": "main",
+          "default": "CHK-001",
+          "swappable": false
+        },
+        {
+          "slot": "side",
+          "default": "SID-001",
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "SID-003",
+              "priceModifier": 0.5
+            },
+            {
+              "itemId": "SID-004",
+              "priceModifier": 0.8
+            }
+          ]
+        },
+        {
+          "slot": "drink",
+          "default": null,
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "DRK-001",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-002",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-003",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-005",
+              "priceModifier": 0
+            }
+          ]
+        }
+      ],
+      "maxQuantityPerOrder": 10,
+      "removableIngredients": []
+    },
+    {
+      "itemId": "MEAL-005",
+      "name": "Veggie Meal",
+      "aliases": [
+        "vegetarian meal",
+        "veggie combo",
+        "veggie burger meal"
+      ],
+      "category": "meals",
+      "description": "Veggie burger with fries and a drink",
+      "basePrice": 6.49,
+      "available": true,
+      "components": [
+        {
+          "slot": "main",
+          "default": "BRG-006",
+          "swappable": false
+        },
+        {
+          "slot": "side",
+          "default": "SID-001",
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "SID-003",
+              "priceModifier": 0.5
+            },
+            {
+              "itemId": "SID-004",
+              "priceModifier": 0.8
+            }
+          ]
+        },
+        {
+          "slot": "drink",
+          "default": null,
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "DRK-001",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-002",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-003",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-004",
+              "priceModifier": 0.5
+            },
+            {
+              "itemId": "DRK-005",
+              "priceModifier": 0
+            }
+          ]
+        }
+      ],
+      "maxQuantityPerOrder": 10,
+      "removableIngredients": []
+    },
+    {
+      "itemId": "MEAL-006",
+      "name": "Kids Meal",
+      "aliases": [
+        "kids combo",
+        "children's meal",
+        "happy kids meal"
+      ],
+      "category": "meals",
+      "description": "Small hamburger or 6 nuggets with small fries and small drink",
+      "basePrice": 4.49,
+      "available": true,
+      "components": [
+        {
+          "slot": "main",
+          "default": "BRG-002",
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "CHK-001",
+              "priceModifier": 0
+            }
+          ]
+        },
+        {
+          "slot": "side",
+          "default": "SID-001",
+          "swappable": false
+        },
+        {
+          "slot": "drink",
+          "default": null,
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "DRK-001",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-003",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-004",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-005",
+              "priceModifier": 0
+            }
+          ]
+        }
+      ],
+      "maxQuantityPerOrder": 5,
+      "removableIngredients": []
+    },
+    {
+      "itemId": "MEAL-007",
+      "name": "Family Bundle",
+      "aliases": [
+        "family meal",
+        "family box",
+        "sharing bundle"
+      ],
+      "category": "meals",
+      "description": "4 cheeseburgers, 2 large fries, 4 drinks",
+      "basePrice": 19.99,
+      "available": true,
+      "components": [
+        {
+          "slot": "mains",
+          "default": "BRG-001",
+          "quantity": 4,
+          "swappable": false
+        },
+        {
+          "slot": "sides",
+          "default": "SID-001",
+          "quantity": 2,
+          "swappable": false
+        },
+        {
+          "slot": "drinks",
+          "default": null,
+          "quantity": 4,
+          "swappable": true,
+          "allowedSwaps": [
+            {
+              "itemId": "DRK-001",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-002",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-003",
+              "priceModifier": 0
+            },
+            {
+              "itemId": "DRK-005",
+              "priceModifier": 0
+            }
+          ]
+        }
+      ],
+      "maxQuantityPerOrder": 3,
+      "removableIngredients": []
+    }
+  ],
+  "halalCertified": true
+}

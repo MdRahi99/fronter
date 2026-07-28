@@ -1,0 +1,21 @@
+{
+  "name": "fronter-backend",
+  "version": "1.0.0",
+  "description": "Backend for COM748 adaptive hybrid LLM food ordering system",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.0"
+  }
+}

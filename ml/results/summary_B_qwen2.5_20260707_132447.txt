@@ -1,0 +1,16 @@
+fronter evaluation summary
+Architecture: B   Model: qwen2.5   Orders: 210   Time: 3745.2s
+----------------------------------------------------
+Overall accuracy        : 31.9%
+Hallucination rate      : 2.4%
+Clarification accuracy  : 20.0%
+Adversarial reject acc. : 0.0%
+Average latency         : 15653 ms
+----------------------------------------------------
+Per-category accuracy:
+  simple          94.7%   (36/38)   hall 0
+  complex         24.3%   (9/37)   hall 1
+  ambiguous        8.6%   (3/35)   hall 1
+  incomplete       8.6%   (3/35)   hall 0
+  contradictory   20.0%   (6/30)   hall 0
+  adversarial     28.6%   (10/35)   hall 3
