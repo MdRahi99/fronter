@@ -1,5 +1,3 @@
-// Auto-generated from the project menu.json (data only, for display).
-// Names and prices shown to the customer in the side panel.
 export const MENU = {
   "burgers": [
     {

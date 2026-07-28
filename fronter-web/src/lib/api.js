@@ -1,6 +1,3 @@
-// The only module that talks to the fronter backend.
-// Base URL from NEXT_PUBLIC_API_BASE (.env.local).
-
 const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:5000";
 
 export async function placeOrder(message, model) {
@@ -27,9 +24,9 @@ export function routeOf(order) {
 }
 
 export const ROUTE_META = {
-  build:   { label: "Order built",    hint: "Routed to direct build, then checked against the live menu." },
+  build: { label: "Order built", hint: "Routed to direct build, then checked against the live menu." },
   clarify: { label: "Needs a detail", hint: "The router asked for more information instead of guessing." },
-  reject:  { label: "Refused",        hint: "Blocked by the deterministic safety rules." },
+  reject: { label: "Refused", hint: "Blocked by the deterministic safety rules." },
 };
 
 export const MODELS = ["qwen2.5", "llama3", "mistral"];

@@ -45,7 +45,7 @@ export default function Page() {
           <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-route-build font-mono text-lg font-bold text-counter-bg">f</div>
           <div>
             <h1 className="text-xl font-semibold tracking-tight">Fronter</h1>
-            <p className="font-mono text-xs text-counter-dim">order terminal · adaptive hybrid (D)</p>
+            <p className="font-mono text-xs text-counter-dim">order terminal · adaptive hybrid</p>
           </div>
         </div>
         <p className="mt-4 max-w-xl text-sm leading-relaxed text-counter-dim">

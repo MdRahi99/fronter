@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "fronter — order terminal",
-  description: "Adaptive Hybrid Architecture (D) — live ordering demo",
+  title: "Fronter — order terminal",
+  description: "Adaptive Hybrid Architecture — live ordering demo",
 };
 
 export default function RootLayout({ children }) {
